@@ -7,9 +7,11 @@ nav{
 
 
 .btn-outline{
-color: #002f73;
+color: #002f73!important;
+background-color: #33ccff;
 border: 2px solid  #002f73;
 font: 600 13.3333px "Montserrat";
+padding:5px
 
 }
 .redes{
@@ -17,50 +19,141 @@ font: 600 13.3333px "Montserrat";
     font-size:20px;
 }
 
- video{
-    width: 100%;
-    background-color: rgba(35, 175, 221, 0.6);
 
-}
 .banner{
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
+    background: url("../../assets/img/banner1.jpg" )  no-repeat center right ;
+    background-size:cover;  
+    height: 90vh;    
+    min-width: 100%;
+    
 
 }
-.overlay{
-    position: absolute;
-    width: 100%;  
-    height: 100%;
-    background-color: #33ccff;
-    opacity: 0.4;
-    top: 0;
-}
-
-
 .banner-title{
+    padding: 10% 0;
+    height: 100%;
+    background-color: rgba(51, 204, 255, 0.6);
+}
 
-        top: 9vh;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 10%;
-      position: absolute;
-       color: white;
+.banner-title h2{
+    font-family:"Montserrat";
+    font-size: 3vh;
+    font-weight: 500;
+    color:white;
 }
 .banner-title h1{
     font-family:"Montserrat";
-    font-size: 6vw;
     font-weight: 800;
+    color:white;
+    font-size:7vh;
+}
+.banner-title-icons{
+    font-size: 8vh;
+    color:white;
+
+}
+.banner-title-icons span{
+    margin: 5px;
+}
+
+.banner-title button {
+    font-family:"Montserrat";
+    font-weight: 600;
+    font-size: 3vh;
+}
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.show>.btn-outline-light.dropdown-toggle {
+    color: #212529;
+    background-color: #8ad3d3;
+    border-color: #7cc
 }
 
  h1.subtitle{
     font-family:"Montserrat";
     font-size: 6vw;
-    font-weight: 300!important
+    font-weight: 300!important;
+    font-style: italic;
 
 }
 .blue-effect{
     background-color: rgba(51, 204, 255, 0.6)
 }
+/* whySection */
+.whySection{
+    background-color:#33ccff;
+    padding: 5vw 0px;
+}
+.whySection h1{
+    font-family:"Montserrat";
+    font-size: 7vh;
+    font-weight: 800;
+    color:#002f73 ;
 
+}
+/* reasons */
+.reasons{
+    background: url("../../assets/img/bannerReason.jpg")  bottom ;
+    background-size: cover;
+    color: white;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    position: relative;
+
+
+}
+
+.reasons h3{
+    font-family:"Montserrat";
+    font-weight: 550;
+    font-size: 2rem;
+    margin: 0px;
+}
+.reasons p{
+    font-size: 2vh;
+    font-weight: 350;
+
+    
+}
+.background-reasons{
+    background-color: rgba(51, 204, 255, 0.6);
+    position:absolute;
+    height: 100%;
+    width:  100%;
+    top:0
+
+}
+.reason{
+    position: relative;
+    padding: 10vh 0px;
+
+}
+
+div.reasons-icons {
+ font-size: 15vh;
+}
+.separadores{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+
+}
+
+
+@media (min-width: 768px) { 
+    .separadores{
+      
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom: 0;
+        border-top: 0;
+    
+    }
+    .reasons{
+        padding: 10vh 0px;
+
+    }
+    .reason{
+        padding: 0vh 0px;
+ 
+    }
+ 
+ }
