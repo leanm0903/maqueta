@@ -31,7 +31,7 @@ padding:5px
 .banner-title{
     padding: 10% 0;
     height: 100%;
-    background-color: rgba(51, 204, 255, 0.6);
+    background-color: rgba(51, 204, 255, 0.5);
 }
 
 .banner-title h2{
@@ -96,7 +96,6 @@ padding:5px
     background-size: cover;
     color: white;
     background-attachment: scroll;
-    background-attachment: fixed;
     position: relative;
 
 
@@ -138,6 +137,7 @@ div.reasons-icons {
 }
 
 
+
 @media (min-width: 768px) { 
     .separadores{
       
@@ -157,3 +157,149 @@ div.reasons-icons {
     }
  
  }
+/* Beneficios */
+.beneficio{
+    background: url("../../assets/img/banner3.jpg")   top center;
+    background-size: cover;
+    color: white;
+}
+.beneficio h3{
+    font-family: "Montserrat";
+    font-weight: 550;
+    font-size: 2rem;
+    margin: 0px;
+}
+.beneficio h1{
+    font-family: "Montserrat";
+    font-size: 7vh;
+    font-weight: 800;
+    color: white; 
+}
+.beneficio span{
+    font-size: 15vh;
+
+}
+
+.lista-beneficios{
+    background-color: rgba(51, 204, 255, 0.6);
+    margin:0px
+}
+.separador-beneficios{
+   border-top: 1px solid white;
+}
+@media (min-width: 768px)
+{
+    .separador-beneficios{
+        border-top: none
+     } 
+}
+
+/* Descripcion */
+.descripcion{
+   padding: 5%;
+}
+.img-nosotros img{
+    width: 100%;
+ }
+.descripcion h1{
+    font-family: "Montserrat";
+    font-size: 7vh;
+    font-weight: 800;
+    color: #002f73; 
+}
+.descripcion p{
+font-family: "Montserrat";
+font-size: 2vh;
+font-weight: 500;
+color: #002f73;}
+.descripcion span{
+    font-size: 10vh;
+    color: #33ccff;}
+ @media (min-width: 768px)
+
+ {
+    .descripcion h1{
+        font-family: "Montserrat";
+        font-size: 7vw;
+        font-weight: 800;
+        color: #002f73; 
+    }
+    .descripcion p{
+    font-family: "Montserrat";
+    font-size: 1vw;
+    font-weight: 500;
+    color: #002f73;}
+   
+}
+  
+/* Exitos */
+.Exitos{
+    background-color:#002f73 ;
+}
+.Exitos h1{
+    font-family: "Montserrat";
+    font-size: 7vh;
+    font-weight: 800;
+    color: #33ccff; 
+}
+.Exitos p{
+font-family: "Montserrat";
+font-size: 2vh;
+font-weight: 500;
+color: white;}
+.Exitos span{
+    font-size: 10vh;
+    color: white;}
+ @media (min-width: 768px)
+
+ {
+    .Exitos h1{
+        font-family: "Montserrat";
+        font-size: 7vw;
+        font-weight: 800;
+        color: #33ccff; 
+    }
+    .Exitos p{
+    font-family: "Montserrat";
+    font-size: 1vw;
+    font-weight: 500;
+    color: white;}
+   
+}
+
+/* contacto */
+.contacto span{
+    font-size: 10vh;
+    color: white;}
+.contacto{
+background-color: #33ccff; 
+ padding:10px 0px;
+}
+.contacto h1{
+    font-family: "Montserrat";
+    font-size: 7vw;
+    font-weight: 800;
+    color: #002f73; 
+}
+.contacto input{
+    background: rgba(227, 230, 231, 0.589)!important;
+
+}
+.contacto textarea{
+    background: rgba(227, 230, 231, 0.589)!important;
+    font-family: "Montserrat";
+    color: #002f73!important; 
+    font-weight: 800;
+}
+.contacto input::placeholder{
+    font-family: "Montserrat";
+    color: #002f73!important; 
+    font-weight: 800;
+
+
+}
+.contacto textarea::placeholder{
+    font-family: "Montserrat";
+    color: #002f73!important; 
+    font-weight: 800;
+}
